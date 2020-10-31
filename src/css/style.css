@@ -17,14 +17,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 100vw;
-height: 100vh;
+height: 140vh;
 perspective: 800px;
 }
 
 .id-card {
 position: relative;
-width: 80%;
-height: 800px;
+width: 90%;
+height: 1200px;
 transform: scale(0.01) rotateY(720deg);
 transform-style: preserve-3d;
 transition: 1.2s;
@@ -56,13 +56,15 @@ transform: rotateY(180deg);
 }
 
 .po{
-display: inline-block;
-width: 49%;
+    display: inline-block;
+    width: 49%;
+    font-size: 15px;
 }
 
 .ne{
-display: inline-block;
-width: 49%;
+    display: inline-block;
+    width: 49%;
+    font-size: 15px;
 }
 
 .po-header{
@@ -79,13 +81,6 @@ h2{
 text-align: center;
 color: white;
 font-family: 'Caveat', cursive;
-}
-
-.wrap {
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .button{
